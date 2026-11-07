@@ -4,6 +4,13 @@ def reply(text):
 
     return "Echo: " + text
 
-user_input = input("You: ")
-print("OK")
-print(reply(user_input))
+
+
+assert reply("Hello") == "Echo: Hello"
+print("Test passed!")
+
+
+if __name__ == "__main__":
+    user_input = input("You: ")
+    print("OK")
+    print(reply(user_input))
