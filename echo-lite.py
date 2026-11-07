@@ -7,6 +7,7 @@ def reply(text):
 
 
 assert reply("Hello") == "Echo: Hello"
+assert reply("   ") == "Please enter a message."
 print("Test passed!")
 
 
